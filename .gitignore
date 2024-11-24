@@ -1,0 +1,30 @@
+# Ignore node_modules
+Lambda-Function/node_modules/
+
+# Ignore compiled GO binaries
+job-executor-service
+*.exe
+*.out
+*.o
+
+# Ignore GO module files
+vendor/
+
+# Ignore build artifacts
+*.log
+*.zip
+
+# Ignore Docker build catches
+Dockerfile~
+
+# Ignore specific IDE/editor files
+.vscode/
+
+# Ignore YAML files
+*.yaml
+
+# Ignore all the package-lock files
+package-lock.json
+
+# Ignore steps text file 
+steps.txt
